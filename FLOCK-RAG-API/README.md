@@ -21,15 +21,16 @@ This is the example git repository for the FLock Model API. It contains the foll
 ```
 
 - .env: Environment variables for the project
-  - `api_key`: API key for the FLock Model API
-  - `model_name`: Name of the model to use
-  - `endpoint`: Endpoint for the FLock Model API
+  - `FLOCK_API_KEY`: API key for the FLock Model API
+  - `MODEL_NAME`: Name of the model to use
+  - `ENDPOINT`: Endpoint for the FLock Model API
+- `.env.sample`: Template for the `.env` file
 - `src/main.ts`: Example Typescript code for using the FLock Model API
 - `src/main.js`: Example Javascript code for using the FLock Model API
 
 ## Usage
 
-First cloen the repository and install the dependencies:
+First clone the repository and install the dependencies:
 
 ```
 git clone xxx
@@ -57,10 +58,10 @@ ENDPOINT=xxx
 Finally, run the example code:
 
 ```bash
-# using Javacript
+# using JavaScript
 yarn start:js
 
-# using Typescript
+# using TypeScript
 yarn build && yarn start:ts
 
 ```
