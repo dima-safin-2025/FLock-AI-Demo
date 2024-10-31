@@ -30,7 +30,7 @@ npm run dev
 yarn dev
 ```
 
-The development server will start at http://localhost:5173/dev
+The development server will start at `http://localhost:5173/dev`
 
 ## Documentation
 For more information about FLock Chat Bot and its capabilities, visit our [documentation](https://docs.flock.io).

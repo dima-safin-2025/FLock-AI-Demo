@@ -49,7 +49,7 @@ cd RAG-DISCORD-BOT
 - Discord Server ID (for Discord bot example)
 
 ## Project Structure
-```
+```text
 📦 FLock-AI-Demo
  ┣ 📂 FLOCK-RAG-API            # Basic API integration example
  ┣ 📂 FLOCK-RAG-FRAME-React    # React Frame implementation
